@@ -1,0 +1,82 @@
+.why-choose-us{
+
+  h2{
+    font-size:2em;
+    text-transform:uppercase;
+    padding-top:2em;
+    margin:0;
+    padding-bottom:1em;
+    &:after{
+      display:block;
+      content:"";
+      background-color:$bg-color;
+      width:2em;
+      height:.1em;
+      margin:.4em auto;
+    }
+  }
+  .content{
+    padding:0 3.75em;
+
+    .box{
+      width:49%;
+      height:100px;
+      
+       overflow:hidden;
+       padding:0.312em 0.375em 40px 6px;
+       float:left;
+      .icon{
+        float:left;
+        width:100px;
+        height:126px;
+        margin-left:70px;
+        
+        i{
+          font-size:3em;
+        }
+        .icon-checkmark{
+          color:#78bb9a;
+        }
+        .icon-price-tag{
+          color:#00bbf9;
+        }
+        .icon-loop2{
+          color:#eca95d;
+        }
+        .icon-user{
+          color:#ad7ac1;
+        }
+        .icon-file-text{
+          color:#de7f8e;
+        }
+        .icon-point-right{
+          color:#e6864d;
+        }
+
+      }
+
+      .iright{
+        float:right;
+        margin-right:50px;
+
+        h3{
+          text-align:left;
+          padding:5px 5px;
+        }
+        p{
+          width:30em;
+          padding-right:50px;
+          
+        }
+
+      }
+    }
+
+    ul{
+      list-style-type: none;
+    }
+
+  }
+  padding-bottom:30em;
+  border-bottom:1px solid $bg-color;
+}
